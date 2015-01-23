@@ -1,0 +1,189 @@
+body {
+  min-width: 800px;
+  background: url("img/blue_beakers.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+span {
+  color: #fab728;
+}
+table td {
+  color: ghostwhite;
+  border-top: none !important;
+  background-color: #323232;
+}
+table th {
+  border-bottom: none !important;
+  color: #fab728;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.container {
+  background: rgba(0, 0, 0, 0.8) !important;
+  color: ghostwhite;
+}
+.container h1 {
+  color: #00529b;
+  text-shadow: 1px 1px black !important;
+  text-align: center;
+}
+.container h3 {
+  color: #fab728;
+  text-shadow: 1px 1px black !important;
+  text-align: center;
+}
+.container h3 img {
+  height: 90px;
+  width: 90px;
+}
+.jumbotron {
+  margin-top: -20px !important;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8) !important;
+  color: ghostwhite;
+}
+.jumbotron h1 {
+  color: #00529b;
+  text-shadow: 1px 1px black;
+}
+.jumbotron p {
+  margin-top: 2%;
+  text-indent: 25px;
+  text-align: left;
+  font-size: 15px;
+}
+.mid {
+  text-indent: 25px;
+  color: ghostwhite;
+  margin-top: -30px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.mid img {
+  height: 150px;
+  width: 150px;
+}
+.mid h3 {
+  color: #fab728;
+}
+.mid p a {
+  text-decoration: none;
+  color: white;
+}
+.navbar {
+  text-decoration: none !important;
+  border-radius: 0px !important;
+}
+.navbar a {
+  color: darkgray;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: ghostwhite;
+}
+.navbar ul {
+  margin-top: 2%;
+}
+.navbar li {
+  display: inline;
+}
+.navbar li:nth-child(-n + 4) {
+  margin-right: 2%;
+}
+.navbar button {
+  margin-top: 1%;
+  float: right;
+}
+.navbar-bottom-stick {
+  border: none;
+  background: rgba(55, 55, 55, 0.7);
+  margin-top: 0em !important;
+}
+.navbar-bottom-stick ul {
+  margin-top: 1% !important;
+}
+.navbar-bottom-stick li:nth-child(-n + 9) {
+  margin-right: 2%;
+}
+.navbar-bottom-stick a {
+  color: #00abf0;
+  text-decoration: none;
+}
+.human {
+  height: 35em;
+  overflow-y: scroll;
+}
+.human img {
+  height: 350px;
+  width: 550px;
+}
+.team {
+  height: 49em;
+  overflow-y: scroll;
+}
+.team h2 {
+  text-align: left;
+  color: #fab728;
+}
+.team .advisor {
+  text-align: left;
+}
+.team .pro-img {
+  height: 120px;
+  width: 100px;
+}
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog div {
+  width: 460px;
+  height: 300px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#ffffff, #999999);
+  background: -webkit-linear-gradient(#ffffff, #999999);
+  background: -o-linear-gradient(#ffffff, #999999);
+}
+.modalDialog div iframe {
+  height: 100%;
+  width: 100%;
+}
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.close {
+  text-indent: 0px;
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+  background: ghostwhite;
+}
